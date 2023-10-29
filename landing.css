@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Pacifico&family=Pixelify+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&family=Quicksand:wght@700&family=Roboto:ital,wght@0,100;0,300;0,700;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@800&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/* navigation*/
+.nav0{
+    background-color:   rgb(34, 29, 29);
+}
+.nav0 ul li{
+    display: inline-block; 
+    
+}
+.nav0 h1{
+    color:white;
+    
+}
+.nav0 span{
+    color: orange;
+   
+}
+.nav0 ul li a{
+    position: relative;
+    transition: 0.4s ease;
+    left: 25px;
+    color: white
+}
+.nav0 ul li a:hover{
+    transition: 0.4s ease;
+    background-color: rgb(176, 119, 11);
+    border-radius: 9px;
+}
+.nav0 ul li input{
+    position: relative;
+    border-radius: 7px;
+    top: 25px;
+    left: 75px;
+    
+    width: 714%;
+}
+.nav0 ul li button{
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: none;
+    background-color: rgba(255, 228, 196, 0);
+    color: white;
+    position: relative;
+    left: 55px;
+    font-size: 1rem;
+}
+.nav0 ul li button:hover{
+    transition: 0.4s ease;
+    background-color: rgb(176, 119, 11);
+    border-radius: 9px;
+}
+.nav0 ul li #searchglass{
+    position: relative;
+    top: 2px;
+    left: 1365px;
+}
+.nav0 ul li #bowl{
+    position: relative;
+    left: 1210px;
+    top: 5px;
+    color: orange;
+    font-size: 2rem;
+}
+.sections{
+    display: none;
+}
+#mobilemenu{
+    display: none;
+}
+.sticky{
+   position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+.navigationombile{
+    display: none;
+}
+/* navigation-close*/
+/*discover page*/
+
+.container{
+    position: relative;
+    top: 50px;
+    margin-top: 20px;
+   display: inline-block;
+    
+   
+    
+}
+
+.container .textcontainer #menu1{
+    position: absolute;
+    left:330px;
+    cursor: pointer;
+    font-size: 2.5rem;
+    transition: 0.4s ease;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+.container .textcontainer #menu1:hover{
+    transition: 0.4s ease;
+    color: crimson;
+}
+.container .textcontainer #menu1:active{
+    transition: 0.2s ease;
+    color: rgb(252, 249, 48);
+}
+.container .textcontainer{
+    position: relative;
+    top:-7px;
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flexbox;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+.container img{
+ 
+    height: 250px;
+    object-fit: contain;
+}
+/*discover page-close*/
+/* menus*/
+/* sisig-menu*/
+.sisigmenu{
+    background-color: orange;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.298);
+    z-index:100;
+    position: fixed;
+    top: 195px;
+    width: 50%;
+     height: 480px;
+    left: 500px;
+    display: none;
+    border-radius: 20px;
+}
+.sisigmenu h1{
+    text-align: center;
+}
+.sisigmenu h3{
+    text-align: center;
+}
+.sisigmenu p{
+    text-align: center;
+}
+.sisigmenu a{
+    display: flex;
+    justify-content: center;
+    
+    text-decoration: underline;
+}
+.sisigmenu .stylecontainer1{
+    background-color: crimson;
+    border-radius: 500%;
+    
+}
+.sisigmenu .stylecontainer1 img{
+    position: relative;
+    left: 272px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.sisigmenu #sisigcancel{
+    border: none;
+    background-color: orange;
+    font-size: 3rem;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.sisigmenu #sisigcancel:hover{
+    transition: 0.4s ease;
+    color: crimson;
+}
+.sisigmenu #sisigcancel:active{
+    transition: 0.3s ease;
+    color: white;
+}
+/*sisig-menu-close*/
+/*menus-close*/
+/* scroll*/
+::-webkit-scrollbar{
+    background-color: rgb(40, 37, 37);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(80, 81, 83);
+    border-radius: 20px;
+    
+}
+/*scroll-close*/
+/* mediaa*/
+@media screen and (max-height: 930px){
+    /* navigations*/
+    .nav0{
+        width: 100%;
+    }
+    .nav0 h1{
+        font-size: 1rem;
+    }
+    .nav0 a{
+        display: none;
+    }
+    #mobilemenu{
+        position: fixed;
+        top: 17px;
+        cursor: pointer;
+        border: none;
+        z-index: 205;
+        background-color: rgba(255, 166, 0, 0);
+        left: 160px;
+        display: block;
+        color: orange;
+    
+    }
+    .nav0 ul li input{
+        position: relative;
+        top: -3px;
+        background-color: rgba(94, 91, 91, 0.534);
+        border: none;
+        left: 32px;
+        color: white;
+
+        width: 100%;
+    }
+    .nav0 ul li input ::placeholder{
+        color: white;
+    }
+   .nav0 ul li #searchglass{
+        position: absolute;
+        color: white;
+        left: 335px;
+        top:15px;
+    }
+    .nav0 ul li #bowl{
+        position: relative;
+        left: 35px;
+    }
+    .sections{
+        position: fixed;
+        background-color: rgb(40, 35, 35);
+        height: 5000vh;
+        width: 5;
+        top: 37px;
+        z-index: 100;
+        display: none;
+    }
+    .navigationombile{
+        display: block;
+
+       background-color: rgb(34, 26, 26);
+       height: 155px;
+    }
+    .navigationombile ul li{
+        display: flex;
+        justify-content:start;
+        
+        align-items: start;
+    }
+    .navigationombile ul li button{
+        position: relative;
+        color: gray;
+        top: 5px;
+        padding: 5px;
+        border: none;
+       
+        background-color: rgba(37, 31, 31, 0);
+        text-decoration: underline;
+        transition: 0.4s ease;
+    }
+    .navigationombile ul li button:hover{
+        transition: 0.4s ease;
+        color: orange;
+    }
+    .navigationombile ul li #mobilediscover{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    .navigationombile ul li #mobilediscover:hover{
+        transition: 0.4s ease;
+        border-radius: 9px;
+        background-color: rgb(204, 139, 17);
+    }
+    .nav0 ul li button{
+        cursor: pointer;
+        transition: 0.4s ease;
+        border: none;
+        background-color: rgba(255, 228, 196, 0);
+        color: white;
+        position: relative;
+        left: -155px;
+        top: 75px;
+        display: none;
+        font-size: 1rem;
+    }
+     /*navigations - close*/
+     /* mainpage*/
+     .discoverpage{
+        display: inline-block;
+        margin-top: -25px;
+     }
+    .container{
+        margin-top: 25px;
+        display: inline-block;
+        margin-left: 7px;
+       
+        
+    }
+    .container .textcontainer{
+        position: relative;
+        top:-7px;
+        background-color: orange;
+        width: 100%;
+        margin-bottom: 20px;
+        display: flexbox;
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+    .container img{
+        cursor: pointer;
+        height: 250px;
+        object-fit: contain;
+    }
+   /*mainpage*/
+   /* mobilemenus*/
+/* mobile sisig-menu*/
+.sisigmenu{
+    background-color: orange;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.298);
+    z-index:100;
+    position: fixed;
+    top: 75px;
+    width: 100%;
+     height: 650px;
+    left: 2px;
+    display: none;
+    border-radius: 20px;
+}
+.sisigmenu h1{
+    text-align: center;
+}
+.sisigmenu h3{
+    text-align: center;
+}
+.sisigmenu p{
+    text-align: center;
+}
+.sisigmenu a{
+    display: flex;
+    justify-content: center;
+    
+    text-decoration: underline;
+}
+.sisigmenu .stylecontainer1{
+    background-color: crimson;
+    border-radius: 100%;
+    
+}
+.sisigmenu .stylecontainer1 img{
+    position: relative;
+    left: 7px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/*mobile sisig-menu-close*/
+/*mobilemenus-close*/
+}
+/*media close*/
